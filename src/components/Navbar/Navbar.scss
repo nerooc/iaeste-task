@@ -1,0 +1,16 @@
+
+@import '../../assets/base-styles/variables.scss';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 80px 0 80px;
+
+    &__logo{
+           height: 50px;
+    }
+
+    &__links{
+        
+    }
+}
