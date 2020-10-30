@@ -3,6 +3,7 @@ import iaeste_logo from "../../assets/images/iaeste-logo.png";
 import "./Navbar.scss";
 
 import CurDate from '../CurDate/CurDate';
+import Social from "../Social/Social";
 
 export default function Navbar() {
     return (
@@ -25,7 +26,7 @@ export default function Navbar() {
 
             </ul>
 
-            <CurDate/>
+            <Social/>
         </nav>
     )
 }

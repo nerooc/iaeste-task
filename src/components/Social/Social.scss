@@ -1,7 +1,6 @@
 @import "../../assets/base-styles/variables.scss";
 
 .social {
-    position: fixed;
 
     z-index: 99;
     display: flex;
@@ -12,14 +11,10 @@
     font-size: 20px;
     line-height: 21px;
 
-    top: 50%;
-    transform: translateY(-50%);
-
     color: white;
-    transform: rotate(90deg);
-    -webkit-transform-origin: 50% 53%;
 
     width: 200px;
+    align-items: center;
     justify-content: space-between;
 
     i {
@@ -34,9 +29,7 @@
 
 @media (max-width: 1100px) {
     .social {
-        position: fixed;
     
-        z-index: 99;
         display: flex;
     
         font-family: Raleway;
@@ -45,14 +38,11 @@
         font-size: 2vw;
         line-height: 2vw;
     
-        top: 50%;
-        transform: translateY(-50%);
     
         color: white;
-        transform: rotate(90deg);
-        -webkit-transform-origin: 50% 53%;
     
         width: 20vw;
+        align-items: center;
         justify-content: space-between;
     
         i {
