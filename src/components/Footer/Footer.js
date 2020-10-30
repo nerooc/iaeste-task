@@ -21,16 +21,16 @@ export default function Footer() {
                 <ul className="footer__right__more">
                     <h6 className="footer__right__more__header">Dowiedz się więcej</h6>
                     <li className="footer__right__more__link">
-                        <a href="">O nas</a>
+                        <a href="https://agh.iaeste.pl/index.php/iaeste/o-iaeste">O nas</a>
                     </li>
                     <li className="footer__right__more__link">
                         <a href="">Nasze sekcje</a>
                     </li>
                     <li className="footer__right__more__link">
-                        <a href="">Nasi członkowie</a>
+                        <a href="https://agh.iaeste.pl/index.php/iaeste/czlonkowie">Nasi członkowie</a>
                     </li>
                     <li className="footer__right__more__link">
-                        <a href="">Kontakt</a>
+                        <a href="https://agh.iaeste.pl/index.php/iaeste/kontakt">Kontakt</a>
                     </li>
                     <li className="footer__right__more__link">
                         <a href="">Polityka prywatności</a>
@@ -43,10 +43,10 @@ export default function Footer() {
                         <a href="">Wydarzenie</a>
                     </li>
                     <li className="footer__right__recruitment__link">
-                        <a href="">Ankieta</a>
+                        <a href="https://docs.google.com/forms/d/1R-FdtQQf4KDsrRmOrkSLdjIik0l8Jm1WfIyKxOiAE_0/edit">Ankieta</a>
                     </li>
-                    <li className="footer__right__recruitment__link">
-                        <a href="">Informacje</a>
+                    <li className="footer__right__recruitment__btt">
+                        <a href="#">Powrót na górę</a>
                     </li>
                 </ul>
             </div>

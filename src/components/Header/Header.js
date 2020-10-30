@@ -2,6 +2,17 @@ import React from 'react';
 import "./Header.scss";
 
 export default function Header() {
+
+    function scrollTo(element) {
+        window.scroll({
+          behavior: 'smooth',
+          left: 0,
+          top: element.offsetTop - 100
+        });
+      }
+      
+
+
     return (
         <div className="header">
 
@@ -15,10 +26,11 @@ export default function Header() {
                 <span className="header__container__subtitle">Zrób pierwszy krok już dziś.</span>
             </h1>
 
-            <h6 className="header__cta">
+            <button onClick={ () => { console.log(document.getElementById("content"))
+                scrollTo(document.getElementById("content"))}} className="header__cta">
                 <div className="header__cta__text">dowiedz się więcej</div>
                 <i className="fas fa-arrow-down header__cta__icon"></i>
-            </h6>
+            </button>
 
         </div>
     )

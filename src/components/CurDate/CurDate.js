@@ -10,7 +10,15 @@ export default function CurDate() {
 
     useEffect(() => {
         let secTimer = setInterval( () => {
-          setDt(`${new Date().getHours()} : ${new Date().getMinutes()} : ${new Date().getSeconds()}`)
+            let hours = new Date().getHours();
+            let minutes = new Date().getMinutes();
+            let seconds = new Date().getSeconds();
+
+            hours = (hours < 10 ? "0" + hours : hours);
+            minutes = (minutes < 10 ? "0" + minutes : minutes);
+            seconds = (seconds < 10 ? "0" + seconds : seconds);
+
+          setDt(`${hours} : ${minutes} : ${seconds}`)
         },1000)
     
         return () => clearInterval(secTimer);

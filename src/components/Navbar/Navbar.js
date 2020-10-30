@@ -7,12 +7,12 @@ import CurDate from '../CurDate/CurDate';
 export default function Navbar() {
     return (
         <nav className="navbar">
-            <img className="navbar__logo" src={iaeste_logo}/>
+            <img className="navbar__logo" src={iaeste_logo} onClick={()=> window.open("https://agh.iaeste.pl/", "_blank")}/>
             
             <ul className="navbar__links">
 
                 <li className="navbar__links__link">
-                    <a href="#">O nas</a>
+                    <a href="https://agh.iaeste.pl/index.php/iaeste/o-iaeste" target="_blank">O nas</a>
                 </li>
 
                 <li className="navbar__links__link">
@@ -20,7 +20,7 @@ export default function Navbar() {
                 </li>
 
                 <li className="navbar__links__link">
-                    <a href="#">Kontakt</a>
+                    <a href="mailto:iaeste@agh.edu.pl">Kontakt</a>
                 </li>
 
             </ul>

@@ -55,9 +55,12 @@
     }
 
     &__cta {
+        color: white;
         display: flex;
         align-items: center;
         transition: 0.3s;
+        background-color: transparent;
+        border: none;
 
         &__text {
             font-family: Raleway;

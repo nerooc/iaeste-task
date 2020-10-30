@@ -139,6 +139,33 @@
 
             }
 
+            &__btt {
+                list-style: none;
+                transition: 0.3s;
+
+                a {
+                    text-decoration: none;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: $additional-color;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: $additional-color;
+                    }
+                }
+                &:hover {
+                    transform: translateX(5px);
+                }
+                &:first-of-type {
+                    margin-top: 30px;
+                }
+
+            }
+
         }
     }
 }

@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-   
+
     max-width: 1300px;
     z-index: 2;
     width: 100%;
@@ -73,9 +73,8 @@
         &__button {
             color: $additional-color;
             display: flex;
-            width: 120px;
-            justify-content: space-between;
             align-items: center;
+            transition: 0.4s;
 
             button {
                 color: $additional-color;
@@ -88,10 +87,15 @@
                 line-height: 21px;
                 text-align: left;
                 padding: 0;
-            }
+                margin-right: 10px;
 
+                &:hover {
+                    cursor: pointer;
+                }
+            }
             &:hover {
                 cursor: pointer;
+                transform: translateX(10px);
             }
         }
     }
@@ -118,6 +122,7 @@
 .num {
     position: absolute;
     top: 50px;
+    z-index: 3;
     transform: translateX(-80px);
     font-family: Roboto;
     font-style: normal;
