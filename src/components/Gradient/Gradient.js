@@ -4,6 +4,6 @@ import "./Gradient.scss";
 
 export default function Gradient() {
     return (
-        <div class="gradient"></div>
+        <div className="gradient"></div>
     )
 }

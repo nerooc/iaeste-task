@@ -1,3 +1,5 @@
+@import "../../assets/base-styles/variables.scss";
+
 .social {
     position: fixed;
 
@@ -14,8 +16,17 @@
 
     color: white;
     transform: rotate(90deg);
-    -webkit-transform-origin: 50%  53%;
-    
+    -webkit-transform-origin: 50% 53%;
+
     width: 200px;
     justify-content: space-between;
+
+    i {
+        cursor: pointer;
+        &:hover {
+            color: $additional-color;
+        }
+
+        transition: 0.3s;
+    }
 }

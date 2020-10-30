@@ -15,7 +15,7 @@ export default function Content() {
     return (
         <>
             <Gradient/>
-            <div class="content"> 
+            <div className="content"> 
             {/* Container 1 */}
                 <Container num="01" tag="IAESTE AGH" title="Dlaczego warto do nas dołączyć?" photo={people_photo}>
                     Wiele okazji do dzielenia się pasją i wsparcie bardziej doświadczonych koleżanek

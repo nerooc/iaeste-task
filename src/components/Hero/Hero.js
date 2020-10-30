@@ -8,7 +8,7 @@ import Social from "../Social/Social";
 
 export default function Hero() {
     return (
-        <div class="hero" styles={{ backgroundImage:`url(${bg_img})`}} >
+        <div className="hero" styles={{ backgroundImage:`url(${bg_img})`}} >
             <Navbar/>
             <Header/>
             <Social/>

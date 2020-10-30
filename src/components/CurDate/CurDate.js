@@ -18,7 +18,7 @@ export default function CurDate() {
 
 
     return (
-        <div class="date">
+        <div className="date">
             {dt}
         </div>
     )

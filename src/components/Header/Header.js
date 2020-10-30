@@ -3,21 +3,21 @@ import "./Header.scss";
 
 export default function Header() {
     return (
-        <div class="header">
+        <div className="header">
 
-            <div class="header__category">
-                <div class="header__category__rectangle"></div>
-                <div class="header__category__title">REKRUTACJA!</div>
+            <div className="header__category">
+                <div className="header__category__rectangle"></div>
+                <div className="header__category__title">REKRUTACJA!</div>
             </div>
 
-            <h1 class="header__container">
-                <span class="header__container__title">Lataj wyżej z IAESTE!<br/></span>
-                <span class="header__container__subtitle">Zrób pierwszy krok już dziś.</span>
+            <h1 className="header__container">
+                <span className="header__container__title">Lataj wyżej z IAESTE!<br/></span>
+                <span className="header__container__subtitle">Zrób pierwszy krok już dziś.</span>
             </h1>
 
-            <h6 class="header__cta">
-                <div class="header__cta__text">dowiedz się więcej</div>
-                <i class="fas fa-arrow-down header__cta__icon"></i>
+            <h6 className="header__cta">
+                <div className="header__cta__text">dowiedz się więcej</div>
+                <i className="fas fa-arrow-down header__cta__icon"></i>
             </h6>
 
         </div>

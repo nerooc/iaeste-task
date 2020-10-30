@@ -6,20 +6,20 @@ import CurDate from '../CurDate/CurDate';
 
 export default function Navbar() {
     return (
-        <nav class="navbar">
-            <img class="navbar__logo" src={iaeste_logo}/>
+        <nav className="navbar">
+            <img className="navbar__logo" src={iaeste_logo}/>
             
-            <ul class="navbar__links">
+            <ul className="navbar__links">
 
-                <li class="navbar__links__link">
+                <li className="navbar__links__link">
                     <a href="#">O nas</a>
                 </li>
 
-                <li class="navbar__links__link">
+                <li className="navbar__links__link">
                     <a href="#">Sekcje</a>
                 </li>
 
-                <li class="navbar__links__link">
+                <li className="navbar__links__link">
                     <a href="#">Kontakt</a>
                 </li>
 

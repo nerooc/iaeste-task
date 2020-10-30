@@ -7,48 +7,48 @@ export default function Container(props) {
 
     let containerNormal = (
         <>
-            <div class="container__text">
-                <div class="num">{props.num}</div>
+            <div className="container__text">
+                <div className="num">{props.num}</div>
 
-                <div class="container__text__category">
-                    <div class="container__text__category__rectangle"></div>
-                    <div class="container__text__category__title">{props.tag}</div>
+                <div className="container__text__category">
+                    <div className="container__text__category__rectangle"></div>
+                    <div className="container__text__category__title">{props.tag}</div>
                 </div>
 
-                <h2 class="container__text__header">{props.title}</h2>
+                <h2 className="container__text__header">{props.title}</h2>
 
-                <p class="container__text__pg">{props.children}</p>
+                <p className="container__text__pg">{props.children}</p>
 
-                <div class="container__text__button">
+                <div className="container__text__button">
                     <button>read more</button> 
-                    <i class="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
                 </div>
             </div>
             
 
-            <img src={props.photo} class="container__img" />
+            <img src={props.photo} className="container__img" />
         </>
     );
 
     let containerInverted = (
         <>
-            <img src={props.photo} class="container__img-inverted" />
+            <img src={props.photo} className="container__img-inverted" />
 
-            <div class="container__text">
-                <div class="num">{props.num}</div>
+            <div className="container__text">
+                <div className="num">{props.num}</div>
 
-                <div class="container__text__category">
-                    <div class="container__text__category__rectangle"></div>
-                    <div class="container__text__category__title">{props.tag}</div>
+                <div className="container__text__category">
+                    <div className="container__text__category__rectangle"></div>
+                    <div className="container__text__category__title">{props.tag}</div>
                 </div>
 
-                <h2 class="container__text__header">{props.title}</h2>
+                <h2 className="container__text__header">{props.title}</h2>
 
-                <p class="container__text__pg">{props.children}</p>
+                <p className="container__text__pg">{props.children}</p>
 
-                <div class="container__text__button">
+                <div className="container__text__button">
                     <button>read more</button> 
-                    <i class="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
                 </div>
             </div>
         </>
@@ -57,7 +57,7 @@ export default function Container(props) {
     let containerContent = props.inverted ? containerInverted : containerNormal;
 
     return (
-        <div class="container">
+        <div className="container">
 
             {containerContent}
             

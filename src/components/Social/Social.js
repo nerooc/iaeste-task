@@ -4,10 +4,10 @@ import "./Social.scss";
 
 export default function Social() {
     return (
-        <div class="social">
+        <div className="social">
             Obserwuj nas!
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-square"></i>
+            <i onClick={()=> window.open("https://www.instagram.com/iaeste_agh/?hl=pl", "_blank")} className="fab fa-instagram"></i>
+            <i onClick={()=> window.open("https://www.facebook.com/IAESTE.AGH", "_blank")}className="fab fa-facebook-square"></i>
         </div>
     )
 }

@@ -1,0 +1,144 @@
+@import "../../assets/base-styles/variables.scss";
+
+* {
+    }
+
+.footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    height: 365px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+
+    &__left {
+
+        &__logo {
+            img {
+                height: 50px;
+            }
+
+            p {
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+
+        &__copyright {
+            position: absolute;
+            bottom: 80px;
+
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+
+            opacity: 0.5;
+        }
+    }
+
+    &__right {
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+
+        &__more {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            padding-inline-start: 0;
+
+            &__header {
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FBD784;
+
+                margin-block-start: 0;
+                margin-block-end: 0;
+                margin-inline-start: 0;
+                margin-inline-end: 0;
+            }
+
+            &__link {
+                list-style: none;
+                margin: 16px 0;
+                transition: 0.3s;
+
+                a {
+                    text-decoration: none;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                    transition: 0.3s;
+                    &:hover {
+                        color: $additional-color;
+                    }
+                }
+                &:hover {
+                    transform: translateX(5px);
+                }
+                &:first-of-type {
+                    margin-top: 30px;
+                }
+            }
+
+        }
+
+        &__recruitment {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            padding-inline-start: 0;
+            
+            &__header {
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FBD784;
+            }
+
+            &__link {
+                list-style: none;
+                margin: 16px 0;
+                transition: 0.3s;
+
+                a {
+                    text-decoration: none;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                    transition: 0.3s;
+                    &:hover {
+                        color: $additional-color;
+                    }
+                }
+                &:hover {
+                    transform: translateX(5px);
+                }
+                &:first-of-type {
+                    margin-top: 30px;
+                }
+
+            }
+
+        }
+    }
+}
