@@ -11,6 +11,34 @@
     }
 
     &__links{
-        
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        list-style: none;
+        text-decoration: none;
+
+        &__link{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            transition: 0.3s;
+
+             a{
+                color: white;
+                text-decoration: none;
+
+                &:hover{
+                    color: $additional-color;
+                }
+             }
+
+             &:hover{
+                 transform: translateY(-3px);
+             }
+
+        }
     }
 }
