@@ -80,3 +80,89 @@
         }
     }
 }
+@media (max-width: 1750px) {
+    .header {
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translateX(-50%);
+
+        &__category {
+            display: flex;
+            align-items: center;
+            color: $additional-color;
+
+            &__rectangle {
+                width: 4vw;
+                height: 2px;
+                margin-right: 32px;
+                background-color: $additional-color;
+            }
+
+            &__title {
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 1.5vw;
+                line-height: 21px;
+                letter-spacing: 6px;
+                text-transform: uppercase;
+            }
+        }
+
+        &__container {
+            color: white;
+
+            &__title {
+                font-family: Josefin Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 4.5vw;
+                line-height: 6vw;
+
+                margin-block-start: 0 !important;
+                margin-block-end: 0 !important;
+                margin-inline-start: 0;
+                margin-inline-end: 0;
+            }
+
+            &__subtitle {
+                font-family: Josefin Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 3vw;
+                line-height: 6vw;
+            }
+        }
+
+        &__cta {
+            color: white;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+            background-color: transparent;
+            border: none;
+
+            &__text {
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+            }
+
+            &__icon {
+                font-size: 17px;
+                margin-left: 10px;
+            }
+            &:hover {
+                cursor: pointer;
+                color: $additional-color;
+            }
+        }
+    }
+
+}
+
+

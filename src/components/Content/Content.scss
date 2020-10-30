@@ -9,3 +9,16 @@
     background-color: $base-color;
     padding: 0 230px;
 }
+
+@media (max-width: 1750px) {
+    .content{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 200vw;
+        background-color: $base-color;
+        padding: 0 15vw;
+    }
+
+}

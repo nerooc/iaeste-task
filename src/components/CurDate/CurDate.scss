@@ -4,7 +4,23 @@
     text-align: center;
     width: 140px;
     color: white;
+    font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
+}
+
+@media (max-width: 1150px) {
+    .date {
+        display: flex;
+        align-self: center;
+        text-align: center;
+        align-items: center;
+        width: 10vw;
+        color: white;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+
 }

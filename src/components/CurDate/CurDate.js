@@ -6,7 +6,7 @@ import './CurDate.scss';
 
 
 export default function CurDate() {
-    const [dt, setDt] = useState(new Date().toLocaleString());
+    const [dt, setDt] = useState(`${new Date().getHours()} : ${new Date().getMinutes()} : ${new Date().getSeconds()}`);
 
     useEffect(() => {
         let secTimer = setInterval( () => {

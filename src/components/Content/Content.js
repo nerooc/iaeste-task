@@ -26,11 +26,11 @@ export default function Content() {
                     id="content"
                     link="http://iaeste.agh.edu.pl/blog/"
                 >
-                    Wiele okazji do dzielenia się pasją i wsparcie bardziej doświadczonych koleżanek
-                    i kolegów. This hiking level guide will help you plan hikes according to
-                    different hike ratings set by various websites like All Trails and Modern Hiker.
-                    What type of hiker are you – novice, moderate, advanced moderate, expert, or
-                    expert backpacker?
+                    IAESTE działa w Polsce od 1957 roku W liczbach to 12 komitetów lokalnych przy
+                    najlepszych uczelniach w kraju, ponad 300 członków, 240 aktywnych współprac
+                    i poand 400 rocznie wymienianych ofert. Od 1957 roku ponad 25 tysięcy polskich studnetów
+                    wyjechało na zagraniczne staże i praktyki.
+
                 </Container>
 
                 {/* Container 2 */}
@@ -43,11 +43,9 @@ export default function Content() {
                     btntext="sprawdź sekcje"
                     link=""
                 >
-
-                    The nice thing about beginning hiking is that you don’t really need any special
-                    gear, you can probably get away with things you already have. Let’s start with
-                    clothing. A typical mistake hiking beginners make is wearing jeans and regular
-                    clothes, which will get heavy and chafe wif they get sweaty or wet.
+                    W naszym Komitecie Lokalnym działa aż <span style={{ color: "#FBD784" }}>sześć</span> grup roboczych. Każda z grup pomoże Ci w zdobyciu
+                    doświadczenia, poszerzeniu swoich zainteresowań oraz rozwoju określonych umiejętności
+                    w danych obszarach i dziedzinach.
                 </Container>
 
                 {/* Container 3 */}
@@ -59,10 +57,7 @@ export default function Content() {
                     btntext="wypełnij ankietę!"
                     link="https://forms.gle/AJQriHEKMipB94F38"
                 >
-                    The nice thing about beginning hiking is that you don’t really need any special
-                    gear, you can probably get away with things you already have. Let’s start with
-                    clothing. A typical mistake hiking beginners make is wearing jeans and regular
-                    clothes, which will get heavy and chafe wif they get sweaty or wet.
+                    Rekrutacja odbywa się w pełni drogą elektroniczną. Wzięcie w niej udziału jest banalnie proste - wystarczy wypełnić ankietę i już niedługo możecie zostać kolejnym, świeżutkim członkiem IAESTE!
                 </Container>
 
                 <Footer/>
