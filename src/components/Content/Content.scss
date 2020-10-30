@@ -1,0 +1,11 @@
+@import "../../assets/base-styles/variables.scss";
+
+.content{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 2700px;
+    background-color: $base-color;
+    padding: 0 230px;
+}

@@ -4,7 +4,8 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 64px 80px 0 80px;
+    margin: 0 80px 0 80px;
+    padding-top: 64px;
 
     &__logo{
            height: 50px;
