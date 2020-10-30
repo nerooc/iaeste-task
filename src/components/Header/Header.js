@@ -10,8 +10,6 @@ export default function Header() {
           top: element.offsetTop - 100
         });
       }
-      
-
 
     return (
         <div className="header">

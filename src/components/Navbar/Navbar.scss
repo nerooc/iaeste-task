@@ -1,25 +1,24 @@
-
 @import '../../assets/base-styles/variables.scss';
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 0 80px 0 80px;
+    margin: 0 80px;
     padding-top: 64px;
 
-    &__logo{
-           height: 50px;
-           cursor: pointer;
+    &__logo {
+        height: 50px;
+        cursor: pointer;
     }
 
-    &__links{
+    &__links {
         display: flex;
         justify-content: space-between;
         width: 350px;
         list-style: none;
         text-decoration: none;
 
-        &__link{
+        &__link {
             font-family: Raleway;
             font-style: normal;
             font-weight: bold;
@@ -28,43 +27,40 @@
             text-align: center;
             transition: 0.3s;
 
-             a{
+            a {
                 color: white;
                 text-decoration: none;
-
-                &:hover{
+                &:hover {
                     color: $additional-color;
                 }
-             }
-
-             &:hover{
-                 transform: translateY(-3px);
-             }
+            }
+            &:hover {
+                transform: translateY(-3px);
+            }
 
         }
     }
 }
-
 @media (max-width: 1150px) {
     .navbar {
         display: flex;
         justify-content: space-between;
-        margin: 0 80px 0 80px;
+        margin: 0 80px;
         padding-top: 64px;
-    
-        &__logo{
-               height: 5vw;
-               cursor: pointer;
+
+        &__logo {
+            height: 5vw;
+            cursor: pointer;
         }
-    
-        &__links{
+
+        &__links {
             display: flex;
             justify-content: space-between;
             width: 30vw;
             list-style: none;
             text-decoration: none;
-    
-            &__link{
+
+            &__link {
                 font-family: Raleway;
                 font-style: normal;
                 font-weight: bold;
@@ -72,23 +68,20 @@
                 line-height: 2vw;
                 text-align: center;
                 transition: 0.3s;
-    
-                 a{
+
+                a {
                     color: white;
                     text-decoration: none;
-    
-                    &:hover{
+                    &:hover {
                         color: $additional-color;
                     }
-                 }
-    
-                 &:hover{
-                     transform: translateY(-3px);
-                 }
-    
+                }
+                &:hover {
+                    transform: translateY(-3px);
+                }
+
             }
         }
     }
-    
 
-}    
+}

@@ -1,7 +1,6 @@
 import React from 'react'
 
 import "./Social.scss";
-import Parallax from 'react-rellax';
 
 export default function Social() {
     return (

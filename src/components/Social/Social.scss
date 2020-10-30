@@ -21,6 +21,7 @@
         cursor: pointer;
         &:hover {
             color: $additional-color;
+            transform: translateY(5px);
         }
 
         transition: 0.3s;
@@ -53,13 +54,6 @@
     
             transition: 0.3s;
         }
-    }
-
-}
-
-@media (max-width: 800px) {
-    .social {
-        display: none;
     }
 
 }

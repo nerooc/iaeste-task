@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react'
-
 import './CurDate.scss';
-
-
-
+/* Komponent już nie jest używany */
 
 export default function CurDate() {
     const [dt, setDt] = useState(`${new Date().getHours()} : ${new Date().getMinutes()} : ${new Date().getSeconds()}`);

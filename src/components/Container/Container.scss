@@ -129,11 +129,12 @@
     font-size: 180px;
     line-height: 180px;
     color: #FFFFFF;
-
     opacity: 0.1;
 }
 
-//////////////////////////////////////////////////////////// MEDIA QUERY //////////////////////////////////////////////////////////////////
+.num:first-child {
+    top: 30px;
+}
 
 @media (max-width: 1750px) {
     .container {

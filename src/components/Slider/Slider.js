@@ -1,0 +1,1 @@
+/* [*] znicz dla nieukończonego komponenta */
