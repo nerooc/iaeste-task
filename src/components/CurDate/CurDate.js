@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+
 import './CurDate.scss';
 /* Komponent już nie jest używany */
 

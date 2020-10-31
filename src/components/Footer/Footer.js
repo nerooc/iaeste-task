@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Footer.scss";
-
 
 import iaeste_logo from "../../assets/images/iaeste-logo.png";
+
+import "./Footer.scss";
 
 
 export default function Footer() {

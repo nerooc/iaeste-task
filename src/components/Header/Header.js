@@ -24,8 +24,12 @@ export default function Header() {
                 <span className="header__container__subtitle">Zrób pierwszy krok już dziś.</span>
             </h1>
 
-            <button onClick={ () => { console.log(document.getElementById("content"))
-                scrollTo(document.getElementById("content"))}} className="header__cta">
+            <button 
+                onClick={ () => { 
+                    scrollTo(document.getElementById("content"))}
+                } 
+                className="header__cta">
+                    
                 <div className="header__cta__text">dowiedz się więcej</div>
                 <i className="fas fa-arrow-down header__cta__icon"></i>
             </button>

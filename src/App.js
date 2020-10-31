@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.scss';
 
 import Hero from "./components/Hero/Hero";
 import Content from "./components/Content/Content";
+
+import './App.scss';
 
 function App() {
     return (

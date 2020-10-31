@@ -1,9 +1,11 @@
 import React from 'react';
-import bg_img from '../../assets/images/hero-background.png';
-import './Hero.scss';
 
 import Navbar from "../Navbar/Navbar";
 import Header from "../Header/Header";
+
+import bg_img from '../../assets/images/hero-background.png';
+
+import './Hero.scss';
 
 export default function Hero() {
     return (

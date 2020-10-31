@@ -4,11 +4,11 @@ import Container from "../Container/Container";
 import Gradient from "../Gradient/Gradient";
 import Footer from "../Footer/Footer";
 
-import "./Content.scss";
-
 import mntns_photo from "../../assets/images/gory.png";
 import people_photo from "../../assets/images/people.png";
 import pc_photo from "../../assets/images/pc.png";
+
+import "./Content.scss";
 
 
 export default function Content() {

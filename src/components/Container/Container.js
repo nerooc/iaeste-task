@@ -3,7 +3,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 import "./Container.scss";
-<Container num="01" tag="IAESTE AGH" title="Dlaczego warto do nas dołączyć?"></Container>
 
 export default function Container(props) {
 
