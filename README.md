@@ -1,4 +1,18 @@
-# iaeste-task
+# `IAESTE Recruitment Website`
+
+### [OPEN DEMO](https://iaeste-rekrutacja-2021.netlify.app/#)
+
+## Tech stack
+- React
+- SCSS
+- BEM
+- Netlify
+
+Figma project: [LINK](https://www.figma.com/file/LHfRE7OfEmOFAcCvkwSxqs/Lataj-wy%C5%BCej-z-IAESTE?node-id=0%3A1)
+
+A 24hrs project designed in **Figma** and written in **React.js** working as a basic recruitment promoting website. 
+
+![alt text](https://github.com/nerooc/iaeste-task/blob/main/src/assets/images/preview.png)
 
 # Getting Started with Create React App
 
