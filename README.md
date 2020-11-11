@@ -1,6 +1,7 @@
 # `IAESTE Recruitment Website`
 
 ### [OPEN DEMO](https://iaeste-rekrutacja-2021.netlify.app/#)
+Very long loading, the page was not optimized [limited time].
 
 ## Tech stack
 - React
